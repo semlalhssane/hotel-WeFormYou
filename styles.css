@@ -1,0 +1,60 @@
+.navbar-brand img{
+
+	max-height : 40px;
+}
+
+.bg-light {
+    background-color: #9eacb9!important;
+}
+
+header .row {
+
+	min-height : 70vh;
+	background-image: url(../img/vue.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	align-items : center;
+	color:white;
+ -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+
+}
+
+header .formreservation{
+
+	background-color: rgba(0,0,0,0,5);
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+	
+  }
+
+  header h1{
+
+font-family: 'Raleway', sans-serif;
+
+  }
+
+  header h2{
+
+  	font-family: 'Dancing Script', cursive;
+  	margin-bottom: 50px; 
+
+  }
+
+  header .slogan{
+
+  	display: flex;
+  	min-height: 70vh;
+  	align-items: flex-end;
+  	justify-content: flex-end;
+  }
+
+  @media (max-width: 768px) { 
+  	header .slogan{
+  		display:none;
+   }
+   }
+
+
